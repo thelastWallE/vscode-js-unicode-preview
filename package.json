@@ -38,6 +38,7 @@
           "type": "array",
           "scope": "resource",
           "default": [
+            "json",
             "javascript",
             "javascriptreact",
             "typescript",
