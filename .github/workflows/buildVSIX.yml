@@ -1,0 +1,19 @@
+name: Package VSCode Extension
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6.4.0
+        with:
+          node-version: '24'
+      - run: npm ci
+      - run: npm install -g vsce
+      - run: vsce package
+      - uses: actions/upload-artifact@v7
+        with:
+          name: vscode-js-unicode-preview
+          path: /home/runner/work/vscode-js-unicode-preview/vscode-js-unicode-preview/js-unicode-preview-*.vsix
+          archive: false
