@@ -61,7 +61,7 @@
     }
   },
   "devDependencies": {
-    "eslint": "^6.5.1",
+    "eslint": "^10.3.0",
     "eslint-config-adpyke-es6": "^1.4.13",
     "eslint-config-prettier": "^6.4.0",
     "glob": "^7.1.5",
