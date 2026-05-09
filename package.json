@@ -23,7 +23,7 @@
     "decorator"
   ],
   "activationEvents": [
-    "*"
+    "onLanguage"
   ],
   "main": "./src/extension.js",
   "scripts": {
