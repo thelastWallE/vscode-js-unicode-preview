@@ -15,5 +15,5 @@ jobs:
       - uses: actions/upload-artifact@v7
         with:
           name: vscode-js-unicode-preview
-          path: vscode-js-unicode-preview-*.vsix
+          path: **/vscode-js-unicode-preview/js-unicode-preview-*.vsix
           archive: false
