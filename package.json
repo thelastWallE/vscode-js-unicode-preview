@@ -65,7 +65,7 @@
     "eslint": "^10.3.0",
     "eslint-config-adpyke-es6": "^1.4.13",
     "eslint-config-prettier": "^6.4.0",
-    "glob": "^7.1.5",
+    "glob": "^13.0.6",
     "prettier": "^1.18.2"
   },
   "dependencies": {}
